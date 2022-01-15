@@ -26,7 +26,8 @@ main{
     width: 50vw;
     height: 70vh;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 0 0 10px 10px;
+    padding: 50px;
 
 
 }
@@ -34,11 +35,59 @@ main{
 
 .white-button{
 
-    margin:40px auto 0;
-    width: 50vw;
-    height: 5vh;
+    margin:10px auto 0;
+    width:50vw;
+    height: 60px;
     background-color: white;
-    border-radius: 10px;
+    border-radius: 10px 10px 0 0 ;
+    /* padding: 50px; */
 
 }
 
+.add-task{
+    margin: 15px 0px 0px 50px;
+    width:100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: rgba(0, 0, 255, 0.815);
+    color: white;
+
+}
+
+.add-section{
+    width: 100px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: white;
+    color: gray
+
+
+}
+
+.text-arrow{
+    font-size: 30px;
+    vertical-align: top;
+    
+    
+}
+
+.arrow{
+font-size: 50px;
+}
+
+.round-check{
+    font-size: 20px;
+    display: inline-block;
+}
+
+.check-text{
+    font-size: 30px;
+    display: inline-block;
+}
+
+.coloured-box{
+    border: 2px solid blue;
+    background-color: blue;
+    border-radius: 10px;
+    padding: 5px;
+}
