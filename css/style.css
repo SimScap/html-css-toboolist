@@ -17,14 +17,15 @@ header{
 }
 
 header>span{
-    font-size: 55px;
+    font-size: 60px;
     vertical-align: bottom;
+    font-family: roboto;
 }
 
 main{
     margin: 5px auto;
     width: 50vw;
-    height: 70vh;
+    height: 90vh;
     background-color: white;
     border-radius: 0 0 10px 10px;
     padding: 50px;
@@ -65,29 +66,109 @@ main{
 }
 
 .text-arrow{
-    font-size: 30px;
-    vertical-align: top;
+    font-size: 35px;
+    vertical-align: super;
+    font-family: roboto;
+    
     
     
 }
 
 .arrow{
-font-size: 50px;
+font-size: 40px;
+margin-top: 30px;
+
 }
 
 .round-check{
+    color: green;
     font-size: 20px;
-    display: inline-block;
+    border: 2px solid green;
+    border-radius:20px ;
+    padding: 5px;
+    
+
 }
 
 .check-text{
-    font-size: 30px;
-    display: inline-block;
+    font-size: 40px;
+    margin-left: 10px;
+    font-family: dongle;
+    
+    
 }
 
-.coloured-box{
+
+
+.blue-box{
     border: 2px solid blue;
     background-color: blue;
-    border-radius: 10px;
+    border-radius: 20px;
     padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.purple-box{
+    border: 2px solid purple;
+    background-color: purple;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.lightgreen-box{
+    border: 2px solid lightgreen;
+    background-color: lightgreen;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.orange-box{
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.pink-box{
+    border: 2px solid pink;
+    background-color: pink;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+.green-box{
+    border: 2px solid green;
+    background-color: green;
+    border-radius: 20px;
+    padding: 5px;
+    color: white;
+    margin-left: 10px;
+}
+
+
+
+.red-circle{
+    color: red;
+    font-size: 20px;
+    border: 2px solid red;
+    border-radius:20px ;
+    padding: 5px;
+}
+
+
+.distanza{
+    margin: 20px 20px 20px 0;
+}
+
+.hide{
+display: none;
 }
