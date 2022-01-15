@@ -4,14 +4,19 @@
     box-sizing: border-box;
 }
 
+body{
+background-color: lightgray;
+
+}
+
 header{
-    margin:20px
+    background-color: white;
+    border: white 20px solid;
+
 }
 
 header>span{
-    font-size: 60px;
-    
-    vertical-align: top;
+    font-size: 55px;
     vertical-align: bottom;
 }
 
