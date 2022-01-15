@@ -1,0 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    margin:20px
+}
+
+header>span{
+    font-size: 60px;
+    
+    vertical-align: top;
+    vertical-align: bottom;
+}
+
+
+
+
