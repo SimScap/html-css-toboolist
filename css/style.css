@@ -16,7 +16,7 @@ header{
 
 header>span{
     font-size: 60px;
-    vertical-align: bottom;
+    vertical-align: super;
     font-family: roboto;
 }
 
@@ -70,14 +70,16 @@ main{
 }
 
 .text-arrow{
-    font-size: 35px;
+    font-size: 30px;
     vertical-align: super;
     font-family: roboto;
 }
 
 .arrow{
     font-size: 40px;
-    margin-top: 30px;
+    margin-top: 20px;
+    
+
 }
 
 .green-circle{
@@ -93,7 +95,6 @@ main{
     margin-left: 10px;
     font-family: dongle;
 }
-
 
 .blue-box{
     border: 2px solid blue;
@@ -139,10 +140,6 @@ main{
     border: 2px solid red;
     border-radius:20px ;
     padding: 5px;
-}
-
-.distance{
-    margin: 20px 20px 20px 0;
 }
 
 .logo2{
