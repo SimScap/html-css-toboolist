@@ -28,6 +28,13 @@ main{
     padding: 50px;
 }
 
+
+main>section{
+    background-color: indigo;
+    height: 60px;  
+    border-radius: 20px;
+}
+
 .white-button{
 
     margin:10px auto 0;
@@ -36,12 +43,6 @@ main{
     background-color: white;
     border-radius: 10px 10px 0 0 ;
 
-}
-
-main>section{
-    background-color: indigo;
-    height: 60px;  
-    border-radius: 20px;
 }
 
 .cats{
@@ -142,4 +143,8 @@ main>section{
 .logo2{
     float: right;
     margin-top: 5px;
+}
+
+.hide-box{
+    display: none;
 }
